@@ -1,6 +1,6 @@
 import {useState, useEffect, useRef} from "react";
 // import SectionTitle from '../SectionTitles/SectionTitle';
-import SectionTitleTwo from '../SectionTitles/SectionTitleTwo';
+// import SectionTitleTwo from '../SectionTitles/SectionTitleTwo';
 import Tilt from 'react-parallax-tilt';
 import Parallax from 'parallax-js';
 import {Link} from "react-router-dom";
@@ -29,7 +29,7 @@ const HomeAbout = () => {
                 /> */}
 
                 <div className="row ">
-                    <div className="col-xl-7 col-lg-6 col-12 section-padding-t90" data-aos="fade-up">
+                    <div className="col-xl-7 col-lg-6 col-12" data-aos="fade-up">
                         <div className="about-image-area">
                             <div className="about-image">
                                 <Tilt scale={scale} transitionSpeed={4000}>
@@ -51,10 +51,10 @@ const HomeAbout = () => {
 
                     <div className="col-xl-5 col-lg-6 col-12" data-aos="fade-up" data-aos-delay="300">
                         <div className="about-content-area">
-                            <SectionTitleTwo 
+                            {/*<SectionTitleTwo 
                                 subTitle=""
                                 title="Know Us"
-                            />
+                            />*/}
 
                             <p>We are a young team of talents that believe transparency and honesty are central to providing service - relationship building with our client is our prime objective.<br/><br />
                             We at QYSA Solutions aspire to help businesses expand globally through a variety of creative solutions. We are based in India with associates in five countries around the world. We ensure that our service delivery is quick and efficient while continuously adapting to our clients needs.

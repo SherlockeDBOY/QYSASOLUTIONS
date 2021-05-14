@@ -1,20 +1,17 @@
 import PropTypes from "prop-types";
 import React from 'react';
-import ReactVivus from 'react-vivus';
+// import ReactVivus from 'react-vivus';
 import {Link} from "react-router-dom";
 
 const IconBox = ({ data, classOption }) => {
     return (
         <div className={`icon-box text-center ${classOption}`}>
             <div className="icon">
-                <ReactVivus
+                <img
                     id={`servicesvg-${data.id}`}
-                    option={{
-                        file: data.icon,
-                        animTimingFunction: 'EASE',
-                            type: 'oneByOne',
-                            delay: 80
-                    }}
+                    src={data.icon}
+                    width="60px"
+                    height="60px"
                 />
             </div>
             <div className="content">
