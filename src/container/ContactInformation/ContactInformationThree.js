@@ -46,8 +46,7 @@ const ContactInformationThree = () => {
                                 titleOption="section-title text-center mb-7"
                                 headingOption="title fz-28"
                                 title="Let’s talk"
-                                subTitle="We have made it easy for clients to reach us
-                                    and get their solutions weaved"
+                                subTitle=""
                             />
 
                             <ProjectForm />

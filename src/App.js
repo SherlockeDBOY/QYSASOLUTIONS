@@ -6,6 +6,7 @@ import HomeOne from './pages/HomeOne';
 import About from './pages/About';
 import Service from './pages/Service';
 import Contact from './pages/Contact';
+import OurService from './pages/OurService'
 
 // CSS File Here
 import "aos/dist/aos.css";
@@ -33,6 +34,7 @@ function App() {
               <Route path={`${process.env.PUBLIC_URL + "/about"}`} component ={About} />
               <Route path={`${process.env.PUBLIC_URL + "/service"}`} component ={Service} />
               <Route path={`${process.env.PUBLIC_URL + "/contact"}`} component ={Contact} />
+              <Route path={`${process.env.PUBLIC_URL + "/our-services"}`} component={OurService} />
               {/* <Route component ={NotFound} /> */}
             </Switch>
           </NavScrollTop>

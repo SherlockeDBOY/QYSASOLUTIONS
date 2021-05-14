@@ -26,7 +26,7 @@ const ServiceIconBox = ({ classOption }) => {
                     })}
 
                 </div>
-                    <Link className="btn service btn-primary btn-hover-secondary mt-xl-8 mt-lg-8 mt-md-6 mt-4 mx-auto text-center" to={process.env.PUBLIC_URL + "/about"}>All Service</Link>
+                    <Link className="btn service btn-primary btn-hover-secondary mt-xl-8 mt-lg-8 mt-md-6 mt-4 mx-auto text-center" to={process.env.PUBLIC_URL + "/service"}>All Service</Link>
                 
 
             </div>

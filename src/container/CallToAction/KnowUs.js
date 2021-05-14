@@ -13,28 +13,28 @@ const CallToActionTwo = () => {
 
                 <div className="shape shape-1">
                     <span>
-                        <img src={process.env.PUBLIC_URL + "images/icon-animation/icon-1.png"} alt="" />
+                        <img src={process.env.PUBLIC_URL + "images/icon-animation/Blockchain.svg"} alt="" />
                     </span>
                 </div>
 
                 <div className="shape shape-3">
                     <span>
-                        <img src={process.env.PUBLIC_URL + "images/icon-animation/icon-3.png"} alt="" />
+                        <img src={process.env.PUBLIC_URL + "images/icon-animation/cybersecurity.svg"} alt="" />
                     </span>
                 </div>
                 <div className="shape shape-4">
                     <span>
-                        <img src={process.env.PUBLIC_URL + "images/icon-animation/icon-4.png"} alt="" />
+                        <img src={process.env.PUBLIC_URL + "images/icon-animation/EventManagement.svg"} alt="" />
                     </span>
                 </div>
                 <div className="shape shape-5">
                     <span>
-                        <img src={process.env.PUBLIC_URL + "images/icon-animation/icon-5.png"} alt="" />
+                        <img src={process.env.PUBLIC_URL + "images/icon-animation/Ecommerce.svg"} alt="" />
                     </span>
                 </div>
                 <div className="shape shape-8">
                     <span>
-                        <img src={process.env.PUBLIC_URL + "images/icon-animation/icon-8.png"} alt="" />
+                        <img src={process.env.PUBLIC_URL + "images/icon-animation/Import&Export.svg"} alt="" />
                     </span>
                 </div>
                 
